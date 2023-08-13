@@ -28,6 +28,14 @@ public class CreditCard {
         return limit;
     }
 
+    public double getDebt() {
+        return debt;
+    }
+
+    public double getLimit() {
+        return limit;
+    }
+
     public String invalidPin() {
         System.out.println("Your pin is incorrect.");
         return "Your pin is incorrect.";
